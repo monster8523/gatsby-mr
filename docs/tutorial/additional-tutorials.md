@@ -2,6 +2,6 @@
 title: Additional Tutorials
 ---
 
-There are many use cases for Gatsby, from the very common "happy paths" to more specific and complex integrations. With additional Gatsby tutorials, learn about more topics that go beyond [the basics](/tutorial/) and gain development superpowers.
+गॅटस्बीसाठी अनेक सामान्य "हॅपी पाथ" पासून अधिक विशिष्ट आणि गुंतागुंतीच्या समाकलित होण्याच्या बाबतीत उपयोगाची प्रकरणे आहेत.अतिरिक्त गॅटस्बी ट्यूटोरियलसह, [the basics](/tutorial/) च्या पलीकडे जाणाऱ्या आणि डेव्हलपमेंट बद्दल माहिती मिळवण्यासाठी अधिक जाणून घ्या.
 
 <GuideList slug={props.slug} />
