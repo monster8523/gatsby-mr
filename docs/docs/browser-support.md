@@ -2,23 +2,26 @@
 title: Browser Support
 ---
 
-Gatsby supports [the same browsers as the current stable version of React.js](https://reactjs.org/docs/react-dom.html#browser-support) which is currently IE9+ as well as the most recent versions of other popular browsers.
+गॅट्सबी  [the same browsers as the current stable version of React.js](https://reactjs.org/docs/react-dom.html#browser-support) समर्थन करते, जी सध्या IE9+  तसेच इतर लोकप्रिय ब्राउझरच्या अगदी अलीकडील आवृत्त्या आहेत.
 
-## Polyfills
+## पॉलीफिल
 
-Gatsby leverages Babel 7's ability to automatically add polyfills for your target browsers.
+गॅट्सबी आपल्या लक्ष्य ब्राउझरसाठी स्वयंचलितपणे पॉलिफिल जोडण्याची बाबेल 7 ची क्षमता वापरते.
 
-Newer browsers support more JavaScript APIs than older browsers. For older versions, Gatsby (via Babel) automatically adds the minimum "polyfills" necessary for your code to work in those browsers.
+नवीन ब्राउझर जुन्या ब्राउझरपेक्षा जावास्क्रिप्ट एपीआय चे अधिक समर्थन करतात. जुन्या आवृत्त्यांसाठी, गॅट्सबी (बॅबेल मार्गे) त्या ब्राउझरमध्ये कार्य करण्यासाठी आपल्या कोडसाठी स्वयंचलितपणे किमान "पॉलीफिल" जोडले जातात.
 
-If you start using a newer JavaScript API like `[].includes` that isn't supported by some of your targeted browsers, you won't have to worry about it breaking the older browsers as Babel will automatically add the needed polyfill `core-js/modules/es7.array.includes`.
+आपण जर नवीन जावास्क्रिप्ट एपीआय जसे की `[].includes` समावेश समाविष्ट करणे प्रारंभ केले तर ते आपल्या काही लक्ष्यित ब्राउझरद्वारे समर्थित नाही. आपल्याला जुने ब्राउझर तोडण्याची चिंता करण्याची आवश्यकता नाही कारण बाबेल `core-js/modules/es7.array.includes` आपोआप आवश्यक पॉलिफिल जोडेल.
 
-## Specify what browsers your project supports using "Browserslist"
+## आपला प्रकल्प कोणता ब्राउझर वापरुन समर्थित करतो ते निर्दिष्ट येथे करा  "Browserslist"
 
-You may customize your list of supported browser versions by declaring a [`"browserslist"`](https://github.com/ai/browserslist) key within your `package.json`. Changing these values will modify your JavaScript (via[`babel-preset-env`](https://github.com/babel/babel-preset-env#targetsbrowsers)) and your CSS (via [`autoprefixer`](https://github.com/postcss/autoprefixer)) output.
+आपण आपल्या समर्थित ब्राउझर आवृत्त्यांची सूची आपल्या `package.json` मधील [`"browserslist"`](https://github.com/ai/browserslist) की घोषित करुन सानुकूलित करू शकता.
 
-This article is a good introduction to the growing community of tools around Browserslist — https://css-tricks.com/browserlist-good-idea/
 
-By default, Gatsby emulates the following config:
+ही मूल्ये बदलल्याने आपली जावास्क्रिप्ट सुधारित होईल (via[`babel-preset-env`](https://github.com/babel/babel-preset-env#targetsbrowsers)) आणि आपले CSS (via [`autoprefixer`](https://github.com/postcss/autoprefixer)) आउटपुट.
+
+ब्राउझरलिस्टच्या आसपासच्या साधनांच्या वाढत्या समुदायासाठी हा लेख एक चांगली ओळख आहे — https://css-tricks.com/browserlist-good-idea/
+
+डीफॉल्टनुसार, गॅटस्बी खालील कॉन्फिगरेशनचे अनुकरण करते:
 
 ```json:title=package.json
 {
@@ -26,4 +29,5 @@ By default, Gatsby emulates the following config:
 }
 ```
 
-If you only support newer browsers, make sure to specify this in your `package.json`. This will often enable you to ship smaller JavaScript files.
+
+आपण केवळ नवीन ब्राउझरचे समर्थन करत असल्यास, आपल्या `package.json` मध्ये हे निर्दिष्ट करण्याचे सुनिश्चित करा. हे बरेचदा आपल्याला लहान जावास्क्रिप्ट फायली पाठविण्यास सक्षम करते.
