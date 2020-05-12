@@ -2,7 +2,7 @@
 title: Browser Support
 ---
 
-गॅट्सबी  [the same browsers as the current stable version of React.js](https://reactjs.org/docs/react-dom.html#browser-support) समर्थन करते ,जी सध्या IE9+  तसेच इतर लोकप्रिय ब्राउझरच्या अगदी अलीकडील आवृत्त्या आहेत.
+गॅट्सबी  [the same browsers as the current stable version of React.js](https://reactjs.org/docs/react-dom.html#browser-support) समर्थन करते, जी सध्या IE9+  तसेच इतर लोकप्रिय ब्राउझरच्या अगदी अलीकडील आवृत्त्या आहेत.
 
 ## पॉलीफिल
 
