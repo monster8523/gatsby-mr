@@ -8,13 +8,13 @@ title: Quick Start
 
 <EggheadEmbed
   lessonLink="https://egghead.io/lessons/gatsby-quick-start-with-gatsby-create-develop-and-build-gatsby-sites-from-the-command-line"
-  lessonTitle="गॅटस्बी सुरुवात: गॅटस्बी साईट वापरून करा -क्रीएट  डेव्हलप संचालन विविध कमांड लाईन वापरून."
+  lessonTitle="गॅटस्बी सुरुवात: -क्रीएट डेव्हलप संचालन कमांड लाइन वरून गॅट्सबी साइट्स तयार करा"
 />
 
-**Note**: हे विडिओ  `npx` वापरते, हे आपल्याला पॅकेज 'npm package' इन्स्टॉल करण्याची गरज पडणार नाही . हे कमांड `npx gatsby new` अगदी असेच आहे जे हे `gatsby new` आपल्या कॉम्पुटर वर gatsby-cli इन्स्टॉल केल्यावर होते.
+**Note**: हे विडिओ `npx` वापरते, हे आपल्याला पॅकेज 'npm package' इन्स्टॉल करण्याची गरज पडणार नाही. हे कमांड `npx gatsby new` अगदी असेच आहे जे हे `gatsby new` आपल्या कॉम्पुटर वर gatsby-cli इन्स्टॉल केल्यावर होते.
 
 
-###  गॅटस्बी इन्स्टॉल CLI
+### गॅटस्बी इन्स्टॉल CLI
 
 ```shell
 npm install -g gatsby-cli
@@ -22,7 +22,7 @@ npm install -g gatsby-cli
 
 > ह्या कमांड ने Gatsby CLI इन्स्टॉल होईल. 
 
-###  नवीन साईट तयार करणे 
+### नवीन साईट तयार करणे 
 
 ```shell
 gatsby new gatsby-site
@@ -34,7 +34,7 @@ gatsby new gatsby-site
 cd gatsby-site
 ```
 
-###  डेव्हलपमेंट सर्व्हर सुरु करणे बाबत 
+### डेव्हलपमेंट सर्व्हर सुरु करणे बाबत 
 
 ```shell
 gatsby develop
