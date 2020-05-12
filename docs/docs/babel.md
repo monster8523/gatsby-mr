@@ -13,9 +13,9 @@ title: Babel
 
 आपण केवळ नवीन ब्राउझरला लक्ष्य केले असल्यास, आपण कोणत्या ब्राउझरवर समर्थित आहात यावर गॅटस्बीला कसे शिकवायचे यासाठी [Browser Support](/docs/browser-support/) दस्तऐवज पृष्ठ पहा आणि नंतर बाबेल केवळ या ब्राउझरसाठी कंपाईल करणे प्रारंभ करेल.
 
-## सानुकूल .babelrc फाईल कशी वापरावी
+## कस्टम babelrc फाईल कशी वापरावी
 
-डीफॉल्ट .babelrc सेटअपसह गॅटस्बी शिप्स बहुतेक साइट्ससाठी कार्य करतात. आपण सानुकूल बाबेल प्रीसेट किंवा प्लगइन जोडू इच्छित असल्यास, आपण आपल्या साइटच्या रूट्स आपले स्वतःचे `.babrcrc` तयार करू शकता.आयात करा [`babel-preset-gatsby`](https://github.com/gatsbyjs/gatsby/tree/master/packages/babel-preset-gatsby),आणि अतिरिक्त प्लगइन जोडा, प्रीसेट आणि options बेबल- वर पर्याय पास करा `babel-preset-gatsby`, उदा. `targets`.
+डीफॉल्ट .babelrc सेटअपसह गॅटस्बी शिप्स बहुतेक साइट्ससाठी कार्य करतात. आपण कस्टम बाबेल प्रीसेट किंवा प्लगइन जोडू इच्छित असल्यास, आपण आपल्या साइटच्या रूट्स आपले स्वतःचे `.babrcrc` तयार करू शकता.आयात करा [`babel-preset-gatsby`](https://github.com/gatsbyjs/gatsby/tree/master/packages/babel-preset-gatsby),आणि अतिरिक्त प्लगइन जोडा, प्रीसेट आणि options बेबल- वर पर्याय पास करा `babel-preset-gatsby`, उदा. `targets`.
 
 ```shell
 npm install --save-dev babel-preset-gatsby
@@ -39,4 +39,4 @@ npm install --save-dev babel-preset-gatsby
 ```
 <!-- prettier-ignore-end -->
 
-अधिक प्रगत कॉन्फिगरेशनसाठी, आपण डीफॉल्टची कॉपी देखील येथे करु शकता  [`babel-preset-gatsby`](https://github.com/gatsbyjs/gatsby/tree/master/packages/babel-preset-gatsby)आणि आपल्या गरजा भागविण्यासाठी त्या सानुकूलित करा. 
+अधिक प्रगत कॉन्फिगरेशनसाठी, आपण डीफॉल्टची कॉपी देखील येथे करु शकता  [`babel-preset-gatsby`](https://github.com/gatsbyjs/gatsby/tree/master/packages/babel-preset-gatsby)आणि आपल्या गरजा भागविण्यासाठी त्या कस्टमाईज करा. 
