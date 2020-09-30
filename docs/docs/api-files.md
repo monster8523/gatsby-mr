@@ -1,10 +1,9 @@
 ---
-title: API Files
+title: API फाईल्स 
 ---
+Gatsby आपली साइट कॉन्फिगर करण्यासाठी आणि त्याचे वर्तन नियंत्रित करण्यासाठी आपल्या प्रकल्पातील मूळात 4 फायली वापरते. या सर्व फाईल्स पर्यायी आहेत.
 
-Gatsby uses 4 files in the root of your project to configure your site and control its behavior. All of these files are optional.
-
-- [gatsby-config.js](/docs/api-files-gatsby-config) - Enables plugins, defines common site data, and contains other site configuration that integrates with Gatsby's GraphQL data layer.
-- [gatsby-browser.js](/docs/api-files-gatsby-browser) - Gives you control over Gatsby's behavior in the browser. For example, responding to a user changing routes, or calling a function when the user first opens any page.
-- [gatsby-node.js](/docs/api-files-gatsby-node) - Allows you to respond to events in the Gatsby build cycle. For example, adding pages dynamically, editing GraphQL nodes as they are created, or performing an action after a build is complete.
-- [gatsby-ssr.js](/docs/api-files-gatsby-ssr) - Exposes Gatsby's server-side rendering process so you can control how it builds your HTML pages.
+- [gatsby-config.js](/docs/api-files-gatsby-config) - प्लगइन सक्षम करते, सामान्य साइट डेटा परिभाषित करते, आणि इतर साइट कॉन्फिगरेशन आहेत जी गॅटस्बीच्या ग्राफक्यूएल डेटा लेयरसह समाकलित होते.
+- [gatsby-browser.js](/docs/api-files-gatsby-browser) - ब्राउझरमधील गॅटस्बीच्या वागण्यावर नियंत्रण मिळवते. उदाहरणार्थ, वापरकर्त्याने route बदलत असलेल्यास प्रतिसाद देणे किंवा जेव्हा वापरकर्त्याने प्रथम कोणतेही पेज उघडले तेव्हा एखाद्या फंक्शनला कॉल करते.
+- [gatsby-node.js](/docs/api-files-gatsby-node) - आपल्याला गॅटस्बी बिल्ड सायकलमधील इव्हेंटला प्रतिसाद देण्याची परवानगी देते. उदाहरणार्थ, पेज गतिकरित्या जोडणे, ग्राफिक नोड तयार केल्याप्रमाणे त्यांचे संपादन करणे किंवा एखादी बिल्ड पूर्ण झाल्यानंतर कृती करणे.
+- [gatsby-ssr.js](/docs/api-files-gatsby-ssr) - याद्वारे Gatsby सर्व्हर साइड रेंडरींग प्रक्रिया आपण आपल्या HTML पृष्ठे बनवतो कसे नियंत्रित करू शकता.
