@@ -2,11 +2,11 @@
 title: The gatsby-browser.js API file
 ---
 
-The file `gatsby-browser.js` lets you respond to actions within the browser, and wrap your site in additional components. The [Gatsby Browser API](/docs/browser-apis) gives you many options for interacting with the [client-side](/docs/glossary#client-side) of Gatsby.
+`Gatsby-browser.js` फाइल आपल्याला ब्राउझरमधील क्रियांना प्रतिसाद देऊ देते आणि अतिरिक्त घटकांमध्ये आपली साइट वापरु देते. The [[Gatsby ब्राउझर API](/docs/browser-apis)आपल्याला गॅट्सबीच्या [client-side](/docs/glossary#client-side) सह संवाद साधण्यासाठी बरेच पर्याय देते.
 
-The APIs `wrapPageElement` and `wrapRootElement` exist in both the browser and [Server-Side Rendering (SSR) APIs](/docs/ssr-apis). If you use one of them, consider if you should implement it in both `gatsby-ssr.js` and `gatsby-browser.js` so that pages generated through SSR with Node.js are the same after being [hydrated](/docs/glossary#hydration) with browser JavaScript.
+`wrapPageElement` आणि  `wrapRootElement` हे दोन्ही ब्राउझर मध्ये असित्वात आहेत  [Server-Side Rendering (SSR) APIs](/docs/ssr-apis).आपण त्यापैकी एखादा वापरत असल्यास, आपण दोन्ही `gatsby-ssr.js` आणि `gatsby-browser.js` जेणेकरुन SSR आणि Node.js केलेली पेज एकसारखीच असतील [hydrated](/docs/glossary#hydration) आणि ते ब्राउझर javascript मध्ये पण चालेल.
 
-To use Browser APIs, create a file in the root of your site at `gatsby-browser.js`. Export each API you want to use from this file.
+ब्राउझर API वापरण्यासाठी, आपल्या साइटच्या रुटशी एक फाईल तयार करा `gatsby-browser.js`.आणि आपण या फाईलमधून वापरू इच्छित असलेला प्रत्येक एपीआय निर्यात करा.
 
 ```jsx:title=gatsby-browser.js
 const React = require("react")
