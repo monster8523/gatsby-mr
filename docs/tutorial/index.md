@@ -1,37 +1,37 @@
 ---
-title: Gatsby.js Tutorials
+title: Gatsby.js ट्यूटोरियल
 disableTableOfContents: true
 ---
 
-Welcome to Gatsby! We’re glad you’re here. The goal of this tutorial is to guide you through setting up and deploying your first Gatsby site using a starter template. As we walk through that process, we’ll introduce some more general web development topics, and go over the underlying structure of a Gatsby site.
+गॅटस्बी मध्ये आपले स्वागत आहे! आपण येथे आहात याचा आम्हाला आनंद आहे. या ट्यूटोरियलचे लक्ष्य म्हणजे स्टार्टर टेम्पलेट वापरुन आपली पहिली गॅटस्बी साइट सेट अप करुन उपयोजित करुन मार्गदर्शन करणे. त्या प्रक्रियेवर जाताना, आम्ही आणखी काही सामान्य वेब डेव्हलपमेंट विषयांचा परिचय देऊ, आणि गॅटस्बी साइटच्या मूलभूत संरचनेवर जा.
 
-> The full tutorial is intended to be as accessible as possible to people without much web development experience (yet!) — no need to be an expert. If you prefer to jump straight to code, feel free to skip the step-by-step tutorial and see the [quick start](/docs/quick-start/) page.
+> संपूर्ण ट्यूटोरियलचा हेतू असा आहे की बर्‍याच वेब डेव्हलपमेंट अनुभव नसलेल्या लोकांपर्यंत शक्य तितक्या प्रवेशयोग्य असावे (अद्याप!) — तज्ञ असण्याची गरज नाही. आपण थेट कोडवर जाणे पसंत करत असल्यास, स्टेप बाय स्टेप ट्यूटोरियल सोडून मोकळ्या मनाने हे पेज पहा [quick start](/docs/quick-start/).
 
-## Gatsby fundamentals
+## गॅटस्बी मूलतत्त्वे
 
-0.  [Set up your development environment](/tutorial/part-zero/): We'll introduce you to core technologies that power Gatsby, and guide you through setting up your development environment.
-1.  [Get to know Gatsby building blocks](/tutorial/part-one/): Starting new projects, developing, and deploying sites.
-1.  [Introduction to using CSS in Gatsby](/tutorial/part-two/): Explore libraries like Typography.js and CSS Modules.
-1.  [Building nested layouts in Gatsby](/tutorial/part-three/): Layouts are sections of your site that are reused across multiple pages like headers and footers.
+0.  [आपले वेब डेव्हलपमेंट एन्विरोन्मेन्ट सेट करा](/tutorial/part-zero/): आम्ही आपल्याला गॅटस्बीला सामर्थ्य देणार्‍या अशा मूलभूत तंत्रज्ञानाची ओळख करून देऊ, आणि आपल्या डेव्हलपमेंट एन्विरोन्मेन्ट स्थापित करण्याबद्दल मार्गदर्शन करू.
+1.  [गॅटस्बी बिल्डिंग ब्लॉक्स जाणून घ्या](/tutorial/part-one/): नवीन प्रकल्प प्रारंभ करणे, साईट डेव्हलप आणि डिप्लॉय करणे
+2.  [गॅटस्बी मध्ये CSS वापरण्याची ओळख](/tutorial/part-two/): Typography.js आणि CSS मॉड्यूल सारख्या लायब्ररी एक्सप्लोर करा.
+3.  [गॅटस्बीमध्ये नेस्टेड लेआउट बिल्ड करणे](/tutorial/part-three/): लेआउट्स आपल्या साइटचे असे विभाग आहेत जे एकाधिक पृष्ठांवर पुन्हा वापरलेले वापरतात जसे की हेडर आणि फुटर.
 
-## Intermediate tutorials
+## इंटरमिजिएट ट्यूटोरियल
 
-In these intermediate tutorials, you'll learn how to pull data from almost anywhere into your Gatsby site with GraphQL.
+या इंटरमीडिएट ट्यूटोरियल मध्ये, आपण GraphQL सह आपल्या गॅटस्बी साइटमध्ये जवळपास कोठूनही डेटा पूल करायचा हे शिकणार.
 
-4.  [Querying for data in a blog](/tutorial/part-four/): Create a blog and use a GraphQL query to pull your site title into the blog header.
-5.  [Source plugins and rendering queried data](/tutorial/part-five/): Use a source plugin to pull Markdown blog posts into your site and create an index page with a list of blog posts.
-6.  [Transformer plugins](/tutorial/part-six/): Use a transformer plugin to transform your Markdown blog posts into a form the blog can render.
-7.  [Programmatically create pages from data](/tutorial/part-seven/): Learn how to programmatically create a set of pages for your blog posts.
-8.  [Preparing a site to go live](/tutorial/part-eight/): Learn how to audit your site for performance and best practices for accessibility, SEO, and more.
+4.  [ब्लॉगमध्ये डेटा शोधत आहे](/tutorial/part-four/): ब्लॉग शीर्षलेखात आपल्या साइटचे शीर्षक पूल करण्यासाठी ब्लॉग तयार करा आणि GraphQL क्वेरी वापरा.
+5.  [सोर्स प्लगइन आणि क्वेरी डेटा प्रस्तुत करणे](/tutorial/part-five/): आपल्या साइटवर मार्कडाउन ब्लॉग पोस्ट पूल करण्यासाठ सोर्स प्लगइन वापरा आणि ब्लॉग पोस्टच्या सूचीसह अनुक्रमणिका पेज तयार करा.
+6.  [ट्रान्सफॉर्मर प्लगइन](/tutorial/part-six/): आपल्या मार्कडाउन ब्लॉग पोस्टचे ब्लॉग ब्लॉग प्रस्तुत करू शकत असलेल्या रूपात रूपांतरित करण्यासाठी ट्रान्सफॉर्मर प्लगइन वापरा.
+7.  [प्रोग्राममधून डेटामधून पेज तयार करा](/tutorial/part-seven/): आपल्या ब्लॉग पोस्टसाठी पृष्ठांचा एक प्रोग्राम कसा तयार करायचा ते शिका.
+8.  [साइट live करण्यासाठी तयारी](/tutorial/part-eight/): कार्यक्षमतेसाठी आपल्या साइटचे ऑडिट कसे करावे आणि क्सेसीबीलिटीसाठी उत्कृष्ट पद्धती, एसइओ आणि बरेच काही जाणून घ्या.
 
-## Plugin & Theme tutorials
+## प्लगइन आणि थीम ट्यूटोरियल
 
-Gatsby plugins are a way to encapsulate, re-use, and compose functionality, such as data sourcing. Gatsby themes are a type of plugin which abstracts your default configuration (shared functionality, data sourcing, design) out of your site and into an installable package.
+गॅटस्बी प्लगइन्स डेटा सोर्सिंग सारखे एन्कप्युलेट, पुन्हा वापर आणि कार्यक्षमता तयार करण्याचा एक मार्ग आहे. गॅटस्बी थीम्स हा एक प्रकारचा प्लगइन आहे जो आपल्या साइटच्या बाहेर आणि स्थापित करण्यायोग्य पॅकेजमध्ये आपले डीफॉल्ट कॉन्फिगरेशन (सामायिक कार्यक्षमता, डेटा सोर्सिंग, डिझाइन) अमूर्त करतो.
 
-Learn how to build and use plugins and themes step-by-step in the [Plugin and Theme Tutorials](/tutorial/plugin-and-theme-tutorials/).
+स्टेप बाय स्टेप प्लगइन आणि थीम कसे तयार आणि वापरावेत ते शिका [Plugin and Theme Tutorials](/tutorial/plugin-and-theme-tutorials/).
 
-## Additional tutorials
+## अतिरिक्त ट्यूटोरियल
 
-There are many use cases for Gatsby, some of which aren't covered in the first set of tutorials to keep you focused while learning. Gatsby's Additional Tutorials section is a collection of resources showing how to complete even more Gatsby tasks step-by-step, such as using source plugins for images and CMS content.
+गॅटस्बीसाठी वापरण्याची अनेक केसेस आहेत, त्यापैकी काही शिकत असताना लक्ष केंद्रित करण्यासाठी ट्यूटोरियलच्या पहिल्या सेटमध्ये समाविष्ट केलेले नाहीत. गॅटस्बीचा अतिरिक्त ट्यूटोरियल विभाग हा संसाधनांचा संग्रह आहे ज्यात आणखी अधिक गॅट्सबी कार्य स्टेप बाय स्टेप कसे पूर्ण करावे हे दर्शविते. जसे की इमेजेस आणि CMS कन्टेन्टसाठी सोर्स प्लगइन वापरणे.
 
-Go deeper with [additional Gatsby tutorials](/tutorial/additional-tutorials/).
+सखोल जा [अतिरिक्त गॅटस्बी ट्यूटोरियल](/tutorial/additional-tutorials/).
