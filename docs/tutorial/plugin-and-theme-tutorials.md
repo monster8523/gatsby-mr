@@ -1,13 +1,13 @@
 ---
-title: Plugin & Theme Tutorials
+title: प्लगइन आणि थीम ट्युटोरियल 
 ---
 
-**Gatsby plugins** are Node.js packages that implement Gatsby APIs and are commonly installed through a registry like npm. Common use cases for Gatsby plugins include data sourcing and hooking into lifecycle methods.
+**Gatsby प्लगइन** Node.js मध्ये काही पॅकेजेस आहेत जी गॅटस्बी एपीआय लागू करतात आणि सामान्यत: npm सारख्या रेजिस्ट्रीद्वारे इन्स्टॉल केली जातात. गॅटस्बी प्लगइन्ससाठी सामान्य वापर प्रकरणांमध्ये डेटा सोर्सिंग आणि लाइफसायकल पद्धतींमध्ये हुक करणे समाविष्ट आहे.
 
-**Gatsby themes** are a type of plugin that includes a `gatsby-config.js` file and adds pre-configured functionality, data sourcing, and/or UI code to Gatsby sites. Themes might pre-bundle plugins and configure them so users don't have to, providing a nice abstraction that can be installed and updated as a package.
+**Gatsby थीम** प्लगइनचा एक प्रकार आहे ज्यामध्ये `gatsby-config.js` फाइल समाविष्ट आहे आणि पूर्व-कॉन्फिगर केलेली कार्यक्षमता, डेटा सोर्सिंग आणि / किंवा UI कोड Gatsby साइटवर जोडला जाऊ शकतो. थीम्स कदाचित प्लगइन्स प्री-बंडल आणि कॉन्फिगर करतील ज्यायोगे यूजर्सना स्वतः काही करावयाची गरज नसेल.आणि एक छान अ‍ॅब्स्ट्रक्शन प्रदान करतील जे पॅकेज म्हणून इन्स्टॉल आणि अद्यतनित केले जाऊ शकते.
 
-To learn more about plugins and themes in general, you may be interested to check out the docs guides on [plugins](/docs/plugins/) and [themes](/docs/themes/).
+सर्वसाधारणपणे प्लगइन आणि थीमबद्दल अधिक जाणून घेण्यासाठी आपणास कदाचित दस्तऐवज मार्गदर्शकांचे मार्ग तपासणे आवडेल त्यासाठी [plugins](/docs/plugins/) आणि [themes](/docs/themes/) पहा.
 
-For a deeper understanding of the differences between plugins, themes, and starters, you can also refer to the related [conceptual guide](/docs/plugins-themes-and-starters/).
+प्लगइन, थीम आणि स्टार्टर्सच्या फरकांच्या सखोल आकलनासाठी आपण सोबतचा संदर्भ पाहू शकता [conceptual guide](/docs/plugins-themes-and-starters/).
 
 <GuideList slug={props.slug} />
