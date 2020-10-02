@@ -2,9 +2,9 @@
 title: The gatsby-ssr.js API file
 ---
 
-The file `gatsby-ssr.js` lets you alter the content of static HTML files as they are being Server-Side Rendered (SSR) by Gatsby and Node.js. To use the [Gatsby SSR APIs](/docs/ssr-apis/), create a file called `gatsby-ssr.js` in the root of your site. Export any of the APIs you wish to use in this file.
+`Gatsby-ssr.js` फाइल आपल्याला स्थिर HTML फायलींची कन्टेन्ट बदलू देते कारण ते Gatsby आणि `Node.js` द्वारे सर्व्हर-साइड रेंडर (SSR) करण्यात येते. [Gatsby SSR APIs](/docs/ssr-apis/) वापरण्यासाठी, आपल्या साइटच्या रूटमध्ये `gatsby-ssr.js` नावाची फाईल तयार करा. या फाईलमध्ये आपण वापरू इच्छित असलेले कोणतेही API निर्यात करा.
 
-The APIs `wrapPageElement` and `wrapRootElement` exist in both the SSR and [browser APIs](/docs/browser-apis). If you use one of them, consider if you should implement it in both `gatsby-ssr.js` and `gatsby-browser.js` so that pages generated through SSR with Node.js are the same after being [hydrated](/docs/glossary#hydration) with browser JavaScript.
+ APIs `wrapPageElement` आणि `wrapRootElement` SSR आणि [ब्राऊझर APIs](/docs/browser-apis) दोन्हीमध्ये अस्तित्त्वात आहेत. जर आपण त्यापैकी एक वापरत असाल तर आपण दोन्हीमध्ये याचा वापर करावा  `gatsby-ssr.js` आणि `gatsby-browser.js` जेणेकरुन ब्राउझर `JavaScript` सह [hydrated](/docs/glossary#hydration) झाल्यानंतर `Node.js` सह SSR द्वारे तयार झालेले पेजेस एकसारखीच असतील.
 
 ```jsx:title=gatsby-ssr.js
 const React = require("react")
